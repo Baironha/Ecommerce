@@ -56,43 +56,6 @@ function EstadoPaquete() {
 
 
 
-    const editarPaquete = async () => {
-        try {
-            for (let id of seleccionadosPorEnviar) {
-                await fetch(`http://localhost:3001/paquetes/${id}`, {
-                    method: "PUT",
-                });
-            }
-
-            for (let id of seleccionadosEntregados) {
-                await fetch(`http://localhost:3001/entregado/${id}`, {
-                    method: "PUT",
-                });
-            }
-
-            setDatos((prevDatos) =>
-                prevDatos.filter((paquete) => !seleccionadosPorEnviar.includes(paquete.id))
-            );
-
-            setEntregados((prevEntregados) =>
-                prevEntregados.filter((paquete) => !seleccionadosEntregados.includes(paquete.id))
-            );
-
-            setSeleccionadosPorEnviar([]);
-            setSeleccionadosEntregados([]);
-        } catch (error) {
-            console.error("Error al eliminar paquetes:", error);
-        }
-    };
-
-
-
-
-
-
-
-
-
 
     const eliminarPaquetes = async () => {
         try {
@@ -188,7 +151,6 @@ function EstadoPaquete() {
                 <br />
                 <button id="EliminarPaquete" onClick={eliminarPaquetes}>Eliminar Paquete</button><br />
                 <br />
-                <button id="EditarPaquete" onClick={editarPaquete}>Editar Paquete</button>
             </div>
             <div id="padre">
                 

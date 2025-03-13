@@ -9,12 +9,12 @@ function NavBar() {
   const handleMoreClick = () => {
     Swal.fire({
       title: "Redirigiendo...",
-      text: "Te llevaremos a /RedMe",
+      text: "Por Favor espere, esta siendo redirigido a mi ReadMe",
       icon: "info",
       timer: 2000,
       showConfirmButton: false,
     });
-    setTimeout(() => navigate("/RedMe"), 2000);
+    setTimeout(() => navigate("/ReadMe"), 2000);
   };
 
   const handleContactChange = (event) => {

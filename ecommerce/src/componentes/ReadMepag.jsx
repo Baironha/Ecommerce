@@ -4,20 +4,21 @@ import '../style/ReadMeStyle.css'
 function ReadMepag(){
     return(
         <div id="ContReadme">
+            <h1>ReadMe Proyecto</h1>
             <p>
                 Resumen del Proyecto:
+
                 Este proyecto es una trastienda para una empresa de ecommerce, en la que los trabajadores gestionan el estado de los paquetes (de "por enviar" a "entregados"). La página está dividida en varias vistas, cada una con diferentes componentes dependiendo del rol del usuario (administrador o trabajador). El proyecto está desarrollado en React y utiliza CSS para los estilos, con un JSON file como base de datos.
-
-                Estructura de Páginas:
                 Login (/Login)
+                Estructura de Páginas:
 
-                Componentes:
                 NavBar  – Barra de navegación.
+                Componentes:
                 LoginForm  – Formulario de inicio de sesión.
                 Trabajadores (/work)
 
-                Componentes:
                 NavBar / – Barra de navegación.
+                Componentes:
                 Paqueteria – Componente para visualizar y gestionar los paquetes.
                 EstadoPaquete  – Componente para actualizar el estado de los paquetes.
                 FooterTrabajadores  – Pie de página específico para trabajadores.

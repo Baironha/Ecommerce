@@ -52,8 +52,9 @@ Tablas:
 
 Se utilizan tablas para mostrar la lista de trabajadores y paquetes en un formato organizado y manipulable (sortable).
 Enlaces Importantes:
-Trello: Tablero de Trello – Detalles sobre el progreso y tareas del proyecto.
-GitHub: Repositorio de GitHub – Código fuente del proyecto.
+Trello: https://trello.com/invite/b/67d25db0c61b9d71fa08c881/ATTI4a37d7c2d96d88c145898ab9f0e6082aFECD40BA/todo-ecommerce
+GitHub: https://github.com/Baironha/Ecommerce/tree/master/ecommerce
+
 Tecnologías Utilizadas:
 Frontend: React.js para la creación de componentes y la gestión del estado de la aplicación.
 Estilos: CSS.

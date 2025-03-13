@@ -55,25 +55,17 @@
       "direccion": "esparza puntarenas"
     },
     {
-      "id": "1538",
-      "nombre": "Bairon Horna",
-      "email": "bhorna@fwdcostarica.com",
-      "peso": "5kg",
-      "direccion": "boulevard del sol 3 barranca puntarenas cr"
-    }
-  ],
-  "Entransito": [
-    {
-      "id": "a324f",
-      "nombre": "Bairon Horna",
-      "email": "w",
-      "peso": "w",
-      "direccion": "w"
+      "estado": "enviado",
+      "id": "2b5c"
     }
   ],
   "entregado": [
     {
-      "id": "e83e"
+      "id": "c74b",
+      "nombre": "Juan Alvarado",
+      "email": "juancito@gmail.com",
+      "peso": "3kg",
+      "direccion": "calle don juan avenida2"
     }
   ]
 }
