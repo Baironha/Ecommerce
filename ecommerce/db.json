@@ -1,0 +1,79 @@
+{
+  "Usuarios": [
+    {
+      "id": "4c15",
+      "rol": "trabajador",
+      "nombre": "Bairon Horna",
+      "email": "bhorna@fwdcostarica.com",
+      "password": "horna12345",
+      "direccion": "boulevard del sol 3 puntarenas",
+      "salario": "2.600.000"
+    },
+    {
+      "id": "cb92",
+      "rol": "Admin",
+      "nombre": "Barry Vega",
+      "email": "bvega@fwdcostarica.com",
+      "password": "vega12345",
+      "direccion": "San Ramon  centro Alajuela ",
+      "salario": "400.000"
+    },
+    {
+      "id": "8071",
+      "rol": "trabajador",
+      "nombre": "barry",
+      "email": "bvega@fwdcostarica.com",
+      "password": "12345678",
+      "direccion": "san ramon",
+      "salario": "400.000"
+    },
+    {
+      "id": "8908",
+      "rol": "Admin",
+      "nombre": "Steven salas",
+      "email": "ssalasl@fwdcostarica.com",
+      "password": "12345678",
+      "direccion": "esparza",
+      "salario": "400.000"
+    },
+    {
+      "id": "6353",
+      "rol": "trabajador",
+      "nombre": "steven",
+      "email": "steven@gmail.com",
+      "password": "12345",
+      "direccion": "esparza",
+      "salario": "500.000"
+    }
+  ],
+  "paquetes": [
+    {
+      "id": "2b88",
+      "nombre": "Steven Salas",
+      "email": "ssalasl@fwdcostarica.com",
+      "peso": "3kg",
+      "direccion": "esparza puntarenas"
+    },
+    {
+      "id": "1538",
+      "nombre": "Bairon Horna",
+      "email": "bhorna@fwdcostarica.com",
+      "peso": "5kg",
+      "direccion": "boulevard del sol 3 barranca puntarenas cr"
+    }
+  ],
+  "Entransito": [
+    {
+      "id": "a324f",
+      "nombre": "Bairon Horna",
+      "email": "w",
+      "peso": "w",
+      "direccion": "w"
+    }
+  ],
+  "entregado": [
+    {
+      "id": "e83e"
+    }
+  ]
+}

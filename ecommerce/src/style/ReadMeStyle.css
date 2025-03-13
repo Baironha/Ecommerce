@@ -1,0 +1,24 @@
+#ContReadme {
+    color: black;
+    width: 80%; /* Asegura que el contenedor no se vea demasiado ancho */
+    max-width: 800px; /* Establece un máximo de ancho */
+    height: auto; /* Ajusta la altura del contenedor al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: flex; /* Usamos Flexbox para centrar contenido */
+    flex-direction: column; /* Permite que los elementos se apilen verticalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añadimos algo de espacio alrededor del contenido */
+    background-color: #f4f4f9; /* Fondo suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadimos una sombra sutil */
+}
+
+#ContReadme p {
+    font-size: 18px; /* Establece un tamaño de fuente cómodo */
+    line-height: 1.6; /* Aumenta el interlineado para facilitar la lectura */
+    color: #333; /* Color de texto oscuro para un buen contraste */
+    text-align: justify; /* Justifica el texto para una lectura más fluida */
+    margin: 0; /* Elimina el margen por defecto */
+    font-family: 'Arial', sans-serif; /* Establece una fuente más legible */
+}

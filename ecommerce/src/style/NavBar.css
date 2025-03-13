@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin: 0;
+}
+
+.nav-item {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.nav-item:hover {
+    background-color: #111;
+}
+
+#Mas {
+    margin-left: auto;
+}

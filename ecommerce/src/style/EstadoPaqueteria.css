@@ -1,0 +1,129 @@
+/* Estilo para el contenedor principal */
+#padre {
+    width: 80%;
+    padding: 20px;
+    position: absolute;
+    top: 700px;  /* Coloca el contenedor a 1000px desde el borde superior */
+    left: 50%;    /* Lo coloca en el centro horizontal */
+    transform: translateX(-50%);  /* Ajusta para que quede perfectamente centrado */
+}
+
+/* Estilo para cada sección de la tabla */
+#padre > div {
+    margin-bottom: 20px;
+}
+
+/* Estilo para los títulos */
+#padre h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+/* Estilo para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para los encabezados de la tabla */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilo para las filas alternas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para los enlaces dentro de las tablas (si los hubiera) */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#containerBtn {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 650px; /* Ajusta el top a 700px */
+    left: 50%;
+    transform: translateX(-50%); /* Centra los botones horizontalmente */
+}
+
+#MostrarTabla, #EliminarPaquete {
+    width: 200px;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, #3d7aac, #56c7f2); /* Gradiente atractivo */
+    border: 2px solid transparent;
+    border-radius: 50px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    z-index: 0;
+}
+
+#MostrarTabla::before, #EliminarPaquete::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+#MostrarTabla:hover, #EliminarPaquete:hover {
+    background: linear-gradient(45deg, #56c7f2, #3d7aac); /* Cambio de gradiente */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra más fuerte en hover */
+    transform: translateY(-8px); /* Movimiento hacia arriba */
+}
+
+#MostrarTabla:active, #EliminarPaquete:active {
+    background: #3e8e41; /* Fondo sólido al hacer clic */
+    transform: translateY(2px); /* Efecto de presión */
+}
+
+#MostrarTabla:hover::before, #EliminarPaquete:hover::before {
+    background: rgba(0, 0, 0, 0.2); /* Sombra de fondo cuando se hace hover */
+}
+
+#MostrarTabla, #EliminarPaquete {
+    animation: floatUp 1.5s ease-in-out infinite; /* Animación de "flotar" */
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0); /* Comienza en su lugar */
+    }
+    50% {
+        transform: translateY(-10px); /* Se mueve hacia arriba */
+    }
+    100% {
+        transform: translateY(0); /* Vuelve al inicio */
+    }
+}
